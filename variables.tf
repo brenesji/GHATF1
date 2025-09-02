@@ -8,5 +8,5 @@ variable "vpc_cidr" {
 
 variable "name" {
 
-    default = "demo"
+    default = "gha"
 }

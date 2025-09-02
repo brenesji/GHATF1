@@ -5,7 +5,6 @@ jobs:
     env:
       AWS_ACCESS_KEY_ID: "${f secrets.AWS_ACCESS_KEY_ID }}"
       AWS_SECRET_ACCESS_KEY: "${f secrets.AWS_SECRET_ACCESS_KEY }}"
-      AWS_SESSION_TOKEN: "${f secrets.AWS_SESSION_TOKEN }}"
     runs-on: ubuntu-latest
     steps:
     - name: Code Checkout
